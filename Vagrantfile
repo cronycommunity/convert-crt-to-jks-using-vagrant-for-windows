@@ -19,12 +19,4 @@ Vagrant.configure("2") do |config|
     usermod -a -G sudo vagrant
   SHELL
 
-  config.vm.provision "shell" do |s|
-      s.path = 'master.sh'
-  end
-
-  config.vm.provision "shell", inline: <<-SHELL
-    echo "Welcome"
-  SHELL
-
 end
