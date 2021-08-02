@@ -27,10 +27,6 @@ vagrant reload --provision (not required)
 vagrant ssh
 ```
 
-# VM Server Connection
-``` 2
-vagrant ssh
-```
 
 # Create jks file
 You should add your crt and key file in files with 'ca' name
@@ -43,6 +39,7 @@ sh run1.sh
 sh run2.sh
 ```
 
+After this commands and your passwords, you can see your jks file in files folder.
 
 Mete  | Demirtas
 ------------- | -------------
